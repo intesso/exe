@@ -1,7 +1,7 @@
 {
   "name": "exe",
   "version": "1.0.2",
-  "description": "execute shell commands from node.js, synchronous, with stdin, stdout, stderr.",
+  "description": "execute shell commands from node.js, synchronous, with stdin, stdout, stderr and environment variables.",
   "engines": {
     "node": ">=0.12"
   },
