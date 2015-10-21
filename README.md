@@ -4,7 +4,7 @@
 >
 > . synchronous
 >
-> .. with stdin, stdout and stderr
+> .. with stdin, stdout, stderr and with environment variables
 >
 > ... as you would expect when executing commands in the shell itself
 
