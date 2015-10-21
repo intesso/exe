@@ -28,6 +28,24 @@ exeCute('echo "$PATH"');
 
 ```
 
+# API
+
+### exeCute(command[, options])
+
+> - same as [execSync](https://nodejs.org/api/child_process.html#child_process_child_process_execsync_command_options)
+>
+> - with the default options:
+>
+> ```js
+>  {
+>    stdio :[0,1,2],
+>    env: process.env
+>  }
+>  ```
+
+
+
+
 # test
 ```sh
 npm test
