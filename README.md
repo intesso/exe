@@ -32,9 +32,9 @@ exeCute('echo "$PATH"');
 
 ### exeCute(command[, options])
 
-> - same as [execSync](https://nodejs.org/api/child_process.html#child_process_child_process_execsync_command_options)
+> - same arguments as [execSync](https://nodejs.org/api/child_process.html#child_process_child_process_execsync_command_options)
 >
-> - with the default options:
+> - with the following default options:
 >
 > ```js
 >  {
@@ -42,8 +42,6 @@ exeCute('echo "$PATH"');
 >    env: process.env
 >  }
 >  ```
-
-
 
 
 # test
