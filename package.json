@@ -1,0 +1,35 @@
+{
+  "name": "exe",
+  "version": "1.0.0",
+  "description": "execute shell commands from node.js, synchronous, with stdin, stdout, stderr.",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intesso/exe.git"
+  },
+  "keywords": [
+    "execSync",
+    "stdin",
+    "stdout",
+    "stderr",
+    "sync",
+    "synchronous",
+    "shell",
+    "terminal"
+  ],
+  "author": "Andi Neck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intesso/exe/issues"
+  },
+  "homepage": "https://github.com/intesso/exe#readme",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
